@@ -16,3 +16,5 @@ https://bbs.deepin.org/forum.php?mod=viewthread&tid=154264
 https://bbs.deepin.org/forum.php?mod=viewthread&tid=141816
 ### 透明化dock(底栏)
 https://bbs.deepin.org/forum.php?mod=viewthread&tid=149493
+### 应用图标定制
+见icons文件夹
