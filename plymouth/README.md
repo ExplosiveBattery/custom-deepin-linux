@@ -14,5 +14,5 @@
 ### theme download
 https://store.kde.org/browse/cat/108/
 recommend：  
-https://store.kde.org/p/1200272/
-https://store.kde.org/p/1200274/
+https://store.kde.org/p/1200272/  
+https://store.kde.org/p/1200274/  
