@@ -12,7 +12,7 @@
   最后sudo update-initramfs -u 刷新
 
 ### theme download
-https://store.kde.org/browse/cat/108/
+https://store.kde.org/browse/cat/108/  
 recommend：  
 https://store.kde.org/p/1200272/  
 https://store.kde.org/p/1200274/  
