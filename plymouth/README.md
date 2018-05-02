@@ -10,3 +10,9 @@
   还需要改动/usr/share/plymouth/themes/default.plymouth 开机动画  
   deepin提供了plymouth-set-default-theme 但是只改了/etc/plymouth/plymouthd.conf  
   最后sudo update-initramfs -u 刷新
+
+### theme download
+https://store.kde.org/browse/cat/108/
+recommend：  
+https://store.kde.org/p/1200272/
+https://store.kde.org/p/1200274/
