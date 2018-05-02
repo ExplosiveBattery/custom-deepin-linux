@@ -18,3 +18,7 @@ https://bbs.deepin.org/forum.php?mod=viewthread&tid=141816
 https://bbs.deepin.org/forum.php?mod=viewthread&tid=149493
 ### 应用图标定制
 见icons文件夹
+### 无线网卡工作模式
+`iwconfig`  
+如果发现有一行Power Management:powersave说明网卡工作在低功耗，emmm，我觉得这可能是我信号不好的原因  
+`sudo iw dev wlp2s0 set power_save off`  
