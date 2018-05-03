@@ -34,5 +34,5 @@ https://github.com/ExplosiveBattery/docker
 `wget -qO- https://get.docker.com/ | sh` 一条命令解决  
 `cat /etc/debian_version` 可以看到deepin15.5是debian 8.0 sid（也就是jessie unstable）  
 ### katoolin
-https://github.com/LionSec/katoolin
+https://github.com/LionSec/katoolin  
 自己选择部分工具安装即可，不推荐使用kali docker，因为docker不适合会变动的东西，比如部分经常有更新的软件：metasploit，nmap  
