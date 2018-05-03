@@ -7,7 +7,7 @@ https://bbs.deepin.org/forum.php?mod=viewthread&tid=155660&extra=
 https://bbs.deepin.org/forum.php?mod=viewthread&tid=155474&extra=  
 ### 桌面美化(conky，类似于windows下的水滴桌面)
 见conky文件夹  
-### 设置开机自动执行什么(包含开机应用自启动，比如说conky)
+### 设置开机自动执行什么(包含开机应用自启动，比如说conky，壁纸自动切换)
 见autostart目录
 ### 配合conky的show desktop
 https://bbs.deepin.org/forum.php?mod=viewthread&tid=155656&extra=  
