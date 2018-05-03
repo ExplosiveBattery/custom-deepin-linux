@@ -1,4 +1,4 @@
-# Custom deepin linux
+## 基本操作
 ### 内核定制（好处，教程）
 https://bbs.deepin.org/forum.php?mod=viewthread&tid=155660&extra=  
 ### 开机动画
@@ -24,8 +24,12 @@ https://bbs.deepin.org/forum.php?mod=viewthread&tid=149493
 `iwconfig`  
 如果发现有一行Power Management:powersave说明网卡工作在低功耗，emmm，我觉得这可能是我信号不好的原因  
 `sudo iw dev wlp2s0 set power_save off`  
+
+## 重要应用（我觉得）
 ### docker
 https://github.com/ExplosiveBattery/docker  
 仓库中有两个pdf，一个是介绍docker，一个是如何安装docker，我的deepin安装使用了：  
 `wget -qO- https://get.docker.com/ | sh` 一条命令解决  
 `cat /etc/debian_version` 可以看到deepin15.5是debian 8.0 sid（也就是jessie unstable）  
+### katoolin
+https://github.com/LionSec/katoolin
