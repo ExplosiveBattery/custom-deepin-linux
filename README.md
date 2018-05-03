@@ -25,6 +25,8 @@ https://bbs.deepin.org/forum.php?mod=viewthread&tid=149493
 如果发现有一行Power Management:powersave说明网卡工作在低功耗，emmm，我觉得这可能是我信号不好的原因  
 `sudo iw dev wlp2s0 set power_save off`  
 
+<p>&nbsp;</p><p>&nbsp;</p>
+
 ## 重要应用（我觉得）
 ### docker
 https://github.com/ExplosiveBattery/docker  
