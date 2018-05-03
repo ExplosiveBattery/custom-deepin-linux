@@ -24,7 +24,8 @@ https://bbs.deepin.org/forum.php?mod=viewthread&tid=149493
 `iwconfig`  
 如果发现有一行Power Management:powersave说明网卡工作在低功耗，emmm，我觉得这可能是我信号不好的原因  
 `sudo iw dev wlp2s0 set power_save off`  
-
+### 定时任务
+cron了解一下，相关命令crontab（相关参数-e,-l），相关文件
 <p>&nbsp;</p><p>&nbsp;</p>
 
 ## 重要应用（我觉得）
