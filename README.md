@@ -17,7 +17,7 @@ https://bbs.deepin.org/forum.php?mod=viewthread&tid=154264
 ### topbar(顶栏)
 https://bbs.deepin.org/forum.php?mod=viewthread&tid=141816
 ### 透明化dock(底栏)
-https://bbs.deepin.org/forum.php?mod=viewthread&tid=149493
+https://bbs.deepin.org/forum.php?mod=viewthread&tid=149493  
 自定义dock大小：
 https://jingyan.baidu.com/article/f7ff0bfc3f49132e26bb1338.html （还可以使用gsettings命令）
 ### 应用图标定制
