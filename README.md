@@ -28,7 +28,7 @@ https://jingyan.baidu.com/article/f7ff0bfc3f49132e26bb1338.html （还可以使�
 `sudo iw dev wlp2s0 set power_save off`  
 ### 定时任务
 cron了解一下，相关命令crontab（相关参数-e,-l），相关文件
-<p>&nbsp;</p><p>&nbsp;</p>
+<p>&nbsp;</p><p>&nbsp;</p>  
 ### 自定义手势
 我幻想着能够在触摸板上画一个五角星，电脑就会关机....emmm...妥妥的装逼利器
 .....结果....这一块内容以后补
