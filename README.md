@@ -13,7 +13,8 @@ https://bbs.deepin.org/forum.php?mod=viewthread&tid=155474&extra=
 https://bbs.deepin.org/forum.php?mod=viewthread&tid=155656&extra=  
 程序会读取~/.toggleconfig中的每一行作为一个顶级窗口名，如果存在同样的窗口名则不会被ShowDesktop（win+d按键）影响
 ### 钉宫语音包
-https://bbs.deepin.org/forum.php?mod=viewthread&tid=154264  
+https://bbs.deepin.org/forum.php?mod=viewthread&tid=154264  
+
 这个帖子楼主的包有点不完善，拉倒后面有人发了比较好的
 ### topbar(顶栏)
 https://bbs.deepin.org/forum.php?mod=viewthread&tid=141816
