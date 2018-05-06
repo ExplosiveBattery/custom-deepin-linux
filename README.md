@@ -29,7 +29,7 @@ https://jingyan.baidu.com/article/f7ff0bfc3f49132e26bb1338.html （还可以使�
 ### 定时任务
 cron了解一下，相关命令crontab（相关参数-e,-l），相关文件
 ### 自定义手势
-手势有触摸板手势 以及 鼠标手势（相当于点着鼠标左键的触摸板手势）
+手势有触摸板手势 以及 鼠标手势（相当于点着鼠标左键的触摸板手势）  
 我幻想着能够在触摸板上画一个五角星，电脑就会关机....emmm...妥妥的利器  
 触摸板手势： xSwipe（老久系统使用），Fusuma，Touchégg  
 鼠标手势：Easystroke（Windows中WGestures）
