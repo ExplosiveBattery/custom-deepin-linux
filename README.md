@@ -29,8 +29,19 @@ https://jingyan.baidu.com/article/f7ff0bfc3f49132e26bb1338.html （还可以使�
 ### 定时任务
 cron了解一下，相关命令crontab（相关参数-e,-l），相关文件
 ### 自定义手势
-我幻想着能够在触摸板上画一个五角星，电脑就会关机....emmm...妥妥的装逼利器
-.....结果....这一块内容以后补
+手势有触摸板手势 以及 鼠标手势（相当于点着鼠标左键的触摸板手势）
+我幻想着能够在触摸板上画一个五角星，电脑就会关机....emmm...妥妥的利器  
+触摸板手势： xSwipe（老久系统使用），Fusuma，Touchégg  
+鼠标手势：Easystroke（Windows中WGestures）
+我当时设置了Easystroke的五角星关机，每次关机...emmm....按着触摸板左键，再画一个五角星
+### 屏保
+https://www.deepin.org/2012/09/17/install-xscreensaver-in-linux-deepin/  
+推荐屏保主题：cmatrix（装逼利器）
+### 主题
+目前为止好看的主题：  
+https://github.com/horst3180/Arc-theme  
+https://github.com/adapta-project/adapta-gtk-theme  
+但是感觉和deepin的桌面环境搭不起来，有些效果会无效。【待研究】
 <p>&nbsp;</p><p>&nbsp;</p>
 
 ## 重要应用（我觉得）
