@@ -48,7 +48,8 @@ https://github.com/adapta-project/adapta-gtk-theme
 但是感觉和deepin的桌面环境搭不起来，有些效果会无效。【待研究】
 ### 移动launcher中图标分类示例
 使用文本编辑器改变/usr/share/applications/中对应desktop文件的Categories后面的值  
-如果上面改了值分类还是没有改变，emm，似乎deepin有点问题，我们还要把这个desktop文件名字稍微改一下：  
+如果安装的是win下应用，那么在/usr/local/share/applications，比如通过商店安装的百度云，迅雷
+如果上面改了值分类还是没有改变，emm，似乎deepin有点问题，我们还要把这个desktop文件名字稍微改一下：  
 sudo mv /usr/share/applications/edrawmax-zh.desktop /usr/share/applications/edrawmax.desktop
 <p>&nbsp;</p><p>&nbsp;</p>
 
