@@ -65,4 +65,6 @@ https://github.com/LionSec/katoolin
 ### QT Creator
 应用商店的软件常常版本落后，就需要我们自己去安装：  
 安装指导：https://www.jianshu.com/p/afbc42ad2cfd  
-下载页面：http://download.qt.io/archive/qt/  
+下载页面：http://download.qt.io/archive/qt/  
+最后记得编辑/etc/profile，来实现每一次开机自动export Qt安装目录中的bin文件  
+<b>注意：选择安装的时候，QT Creator和Qt下的desktop gcc是必选的，后者会为你提供qmake等工具。</b>
