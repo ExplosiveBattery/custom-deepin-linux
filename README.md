@@ -64,9 +64,9 @@ https://github.com/LionSec/katoolin
 自己选择部分工具安装即可，不推荐使用kali docker，因为docker不适合会变动的东西，比如部分经常有更新的软件：metasploit，nmap  
 ### QT Creator
 应用商店的软件常常版本落后，就需要我们自己去安装：  
-sudo apt-get install libgl1-mesa-dev build-essential(见http://doc.qt.io/qt-5/linux.html 虽然不是编译安装，但是我发现还是需要libgl1-mesa-dev)  
-接着安装指导：https://www.jianshu.com/p/afbc42ad2cfd  
-下载页面：http://download.qt.io/archive/qt/  
+`sudo apt-get install libgl1-mesa-dev build-essential`(见http://doc.qt.io/qt-5/linux.html 虽然不是编译安装，但是我发现还是需要libgl1-mesa-dev)   
+接着安装指导：https://www.jianshu.com/p/afbc42ad2cfd   
+下载页面：http://download.qt.io/archive/qt/    
 最后记得编辑/etc/profile(或者~/.bashrc)，来实现每一次开机自动export Qt安装目录中的bin文件。或者自己一个个ln -s到/usr/bin目录中
 - 注意：
 - 选择安装的时候，QT Creator和Qt下的desktop gcc是必选的，后者会为你提供qmake等工具
