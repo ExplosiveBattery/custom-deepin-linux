@@ -66,5 +66,8 @@ https://github.com/LionSec/katoolin
 应用商店的软件常常版本落后，就需要我们自己去安装：  
 安装指导：https://www.jianshu.com/p/afbc42ad2cfd  
 下载页面：http://download.qt.io/archive/qt/  
-最后记得编辑/etc/profile，来实现每一次开机自动export Qt安装目录中的bin文件  
-<b>注意：选择安装的时候，QT Creator和Qt下的desktop gcc是必选的，后者会为你提供qmake等工具。</b>
+最后记得编辑/etc/profile(或者~/.bashrc)，来实现每一次开机自动export Qt安装目录中的bin文件。或者自己一个个ln -s到/usr/bin目录中
+- 注意：
+- 选择安装的时候，QT Creator和Qt下的desktop gcc是必选的，后者会为你提供qmake等工具
+- qmake: could not exec ‘/usr/lib/x86_64-linux-gnu/qt4/bin/qmake’: No such file or directory  
+ https://blog.csdn.net/zhuquan945/article/details/52818786 </b>
