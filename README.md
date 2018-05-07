@@ -61,3 +61,7 @@ https://github.com/ExplosiveBattery/docker
 ### katoolin
 https://github.com/LionSec/katoolin  
 自己选择部分工具安装即可，不推荐使用kali docker，因为docker不适合会变动的东西，比如部分经常有更新的软件：metasploit，nmap  
+### QT Creator
+应用商店的软件常常版本落后，就需要我们自己去安装：  
+安装指导：https://www.jianshu.com/p/afbc42ad2cfd  
+下载页面：http://download.qt.io/archive/qt/  
