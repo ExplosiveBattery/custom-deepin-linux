@@ -5,6 +5,8 @@ https://bbs.deepin.org/forum.php?mod=viewthread&tid=155660&extra=
 见plymouth文件夹  
 ### 切换桌面壁纸（脚本，内存泄露问题）
 https://bbs.deepin.org/forum.php?mod=viewthread&tid=155474&extra=  
+### 动态桌面壁纸
+有待我开发【待研究】
 ### 桌面美化(conky，类似于windows下的水滴桌面)
 见conky文件夹  
 ### 设置开机自动执行什么(包含开机应用自启动，比如说conky，壁纸自动切换)
