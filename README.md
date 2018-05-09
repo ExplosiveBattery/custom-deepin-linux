@@ -1,4 +1,6 @@
 ## 基本操作
+### bug修复
+https://blog.csdn.net/liuestcjun/article/details/53515589 15.5.1还存在这个bug，导致我不能使用java命令运行class文件
 ### 内核定制（好处，教程）
 https://bbs.deepin.org/forum.php?mod=viewthread&tid=155660&extra=  
 ### 开机动画
