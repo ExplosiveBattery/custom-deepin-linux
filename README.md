@@ -53,6 +53,8 @@ https://github.com/adapta-project/adapta-gtk-theme
 如果安装的是win下应用，那么在/usr/local/share/applications，比如通过商店安装的百度云，迅雷
 如果上面改了值分类还是没有改变，emm，似乎deepin有点问题，我们还要把这个desktop文件名字稍微改一下：  
 sudo mv /usr/share/applications/edrawmax-zh.desktop /usr/share/applications/edrawmax.desktop
+### 精简系统
+可以删除系统多余的语言包，有几百MB大小
 <p>&nbsp;</p><p>&nbsp;</p>
 
 ## 重要应用（我觉得）
@@ -74,3 +76,26 @@ https://github.com/LionSec/katoolin
 - 选择安装的时候，QT Creator和Qt下的desktop gcc是必选的，后者会为你提供qmake等工具
 - qmake: could not exec ‘/usr/lib/x86_64-linux-gnu/qt4/bin/qmake’: No such file or directory  
  https://blog.csdn.net/zhuquan945/article/details/52818786 </b>
+### 思维导图
+Edraw MindMaster，XMIND，mindmaps网页版，百度脑图网页版
+### 流程图等
+Edraw Max（相当于windows visio）（Edraw支持多方跨平台，值的付费）
+### Office
+LibreOffice 不少人推荐，但是我习惯操作界面类似于Word的WPS 
+https://uzer.me 网页版，需要网络良好时使用  
+### 文件比较
+Beyond Compare，VS code内置插件，Meid
+### 数据库连接工具
+datagrip，Navicat，dbeaver
+### 笔记
+为知笔记，有道云笔记，映像笔记
+### Markdown
+Cmd Markdown（导出pdf需要购买会员），Typora，VS code内置插件
+### 邮箱客户端
+Foxmail（wine模拟，耗电，所以如果脱离电源不要开着）
+### 阅读器
+Comix 漫画阅读器  
+追书神器安卓版  
+福昕阅读器Foxit Reader  
+
+...不少人向我推荐VS code...
