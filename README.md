@@ -1,4 +1,9 @@
 ## 基本操作
+### 直接root权限登录系统
+两种思路：
+- 将默认的登录用户永久提升到root权限
+- 调整Lightdm（配置文件/etc/lightdm/lightdm.conf，相关帮助https://www.cnblogs.com/EasonJim/p/7128317.html）  
+重要提示：https://www.cnblogs.com/johnw/p/5499442.html 中的方法三直接将uid改为0，是一个坑。会导致开机无法登录。
 ### bug修复
 https://blog.csdn.net/liuestcjun/article/details/53515589 15.5.1还存在这个bug，导致我不能使用java命令运行class文件
 ### 内核定制（好处，教程）
