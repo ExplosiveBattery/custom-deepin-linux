@@ -61,6 +61,8 @@ https://github.com/adapta-project/adapta-gtk-theme
 sudo mv /usr/share/applications/edrawmax-zh.desktop /usr/share/applications/edrawmax.desktop
 ### 精简系统
 可以删除系统多余的语言包，有几百MB大小
+### 解决wireshark（dumpcap）的权限问题
+sudo chmod 4755 /usr/bin/dumpcap
 <p>&nbsp;</p><p>&nbsp;</p>
 
 ## 重要应用（我觉得）
