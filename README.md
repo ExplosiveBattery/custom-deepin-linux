@@ -10,6 +10,7 @@ https://blog.csdn.net/liuestcjun/article/details/53515589 15.5.1还存在这个b
 为英语环境下的日历添加农历支持:https://bbs.deepin.org/forum.php?mod=viewthread&tid=154593&extra=page%3D1&page=2
 ### 内核定制（好处，教程）
 https://bbs.deepin.org/forum.php?mod=viewthread&tid=155660&extra=  
+一般步骤：http://smilejay.com/2011/05/linux_kernel_compilation/  
 ### 开机动画
 见plymouth文件夹  
 ### 切换桌面壁纸（脚本，内存泄露问题）
@@ -106,5 +107,9 @@ Foxmail（wine模拟，耗电，所以如果脱离电源不要开着）
 Comix 漫画阅读器  
 追书神器安卓版  
 福昕阅读器Foxit Reader  
+### 计算机网络学习
+Cisco Packet Tracer，GNS3
+### 输入法
+搜狗，Rime
 
 ...不少人向我推荐VS code...
