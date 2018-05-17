@@ -8,6 +8,8 @@
 ### bug修复
 https://blog.csdn.net/liuestcjun/article/details/53515589 15.5.1还存在这个bug，导致我不能使用java命令运行class文件  
 为英语环境下的日历添加农历支持:https://bbs.deepin.org/forum.php?mod=viewthread&tid=154593&extra=page%3D1&page=2
+### 引导修复
+见repair_boot文件夹（信不信？不管你遇到过的还是没遇到过得）
 ### 内核定制（好处，教程）
 https://bbs.deepin.org/forum.php?mod=viewthread&tid=155660&extra=  
 一般步骤：http://smilejay.com/2011/05/linux_kernel_compilation/  
@@ -65,7 +67,9 @@ sudo mv /usr/share/applications/edrawmax-zh.desktop /usr/share/applications/edra
 可以删除系统多余的语言包，有几百MB大小
 ### 解决wireshark（dumpcap）的权限问题
 sudo chmod 4755 /usr/bin/dumpcap
+
 <p>&nbsp;</p><p>&nbsp;</p>
+
 
 ## 重要应用（我觉得）
 ### docker
