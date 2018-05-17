@@ -60,6 +60,8 @@ https://bbs.deepin.org/forum.php?mod=viewthread&tid=137002
 https://github.com/horst3180/Arc-theme  
 https://github.com/adapta-project/adapta-gtk-theme  
 但是感觉和deepin的桌面环境搭不起来，有些效果会无效。【待研究】
+### 替换最大化最小化按钮（仿mac）
+https://bbs.deepin.org/forum.php?mod=viewthread&tid=156341
 ### 移动launcher中图标分类示例
 使用文本编辑器改变/usr/share/applications/中对应desktop文件的Categories后面的值  
 如果安装的是win下应用，那么在/usr/local/share/applications，比如通过商店安装的百度云，迅雷
