@@ -27,8 +27,8 @@ https://bbs.deepin.org/forum.php?mod=viewthread&tid=155474&extra=
 https://bbs.deepin.org/forum.php?mod=viewthread&tid=155656&extra=  
 程序会读取~/.toggleconfig中的每一行作为一个顶级窗口名，如果存在同样的窗口名则不会被ShowDesktop（win+d按键）影响
 ### 钉宫语音包
-https://bbs.deepin.org/forum.php?mod=viewthread&tid=154264  
-这个帖子楼主的包有点不完善，拉倒后面有人发了比较好的
+https://bbs.deepin.org/forum.php?mod=viewthread&tid=154264  这个帖子楼主的包有点不完善，拉到后面有人发了比较好的  
+类似的还有https://bbs.deepin.org/forum.php?mod=viewthread&tid=134778
 ### topbar(顶栏)
 https://bbs.deepin.org/forum.php?mod=viewthread&tid=141816
 ### 透明化dock(底栏)
@@ -53,6 +53,8 @@ cron了解一下，相关命令crontab（相关参数-e,-l），相关文件
 ### 屏保
 https://www.deepin.org/2012/09/17/install-xscreensaver-in-linux-deepin/  
 推荐屏保主题：cmatrix（装逼利器）
+### 提高音质
+https://bbs.deepin.org/forum.php?mod=viewthread&tid=137002
 ### 主题
 目前为止好看的主题：  
 https://github.com/horst3180/Arc-theme  
