@@ -10,6 +10,8 @@ https://blog.csdn.net/liuestcjun/article/details/53515589 15.5.1还存在这个b
 为英语环境下的日历添加农历支持:https://bbs.deepin.org/forum.php?mod=viewthread&tid=154593&extra=page%3D1&page=2
 ### 引导修复
 见Repair grub文件夹（信不信？不管你遇到过的还是没遇到过得）
+### apt remove/purge 手贱 修复
+cat /var/log/apt/history.log 查看操作历史
 ### 内核定制（好处，教程）
 https://bbs.deepin.org/forum.php?mod=viewthread&tid=155660&extra=  
 一般步骤：http://smilejay.com/2011/05/linux_kernel_compilation/  
