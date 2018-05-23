@@ -28,7 +28,7 @@ https://bbs.deepin.org/forum.php?mod=viewthread&tid=155474&extra=
 ### 设置开机自动执行什么(包含开机应用自启动，比如说conky，壁纸自动切换)
 见autostart文件夹
 ### 配合conky的show desktop
-https://bbs.deepin.org/forum.php?mod=viewthread&tid=155656&extra=  
+https://github.com/ExplosiveBattery/deepin-desktop-toggle  
 程序会读取~/.toggleconfig中的每一行作为一个顶级窗口名，如果存在同样的窗口名则不会被ShowDesktop（win+d按键）影响
 ### 钉宫语音包
 https://bbs.deepin.org/forum.php?mod=viewthread&tid=154264  这个帖子楼主的包有点不完善，拉到后面有人发了比较好的  
