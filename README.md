@@ -1,3 +1,5 @@
+No license， just for fun  
+
 ## 基本操作
 ### 直接root权限登录系统
 两种思路：
