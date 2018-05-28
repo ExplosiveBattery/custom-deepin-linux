@@ -125,3 +125,8 @@ Cisco Packet Tracer，GNS3
 搜狗，Rime
 
 ...不少人向我推荐VS code...
+
+## 常用快捷键
+Shift+Win+左右方向键   在多任务视图中移动当前应用
+Win+e 文件管理器
+Win+w 当前任务视图中的所有窗口
