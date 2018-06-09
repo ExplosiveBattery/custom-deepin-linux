@@ -131,6 +131,7 @@ Cisco Packet Tracer，GNS3
 Shift+Win+左右方向键   在多任务视图中移动当前应用  
 Win+方向上键  当前窗口最大化  
 Win+方向下键  当前窗口正常化  
+Win+= 与 Win+- 放大镜效果  
 Win+e 文件管理器  
 Win+w 当前任务视图中的所有窗口  
 Ctrl+Alt+T 终端shell  
