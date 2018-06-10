@@ -128,7 +128,7 @@ https://ivarptr.github.io/yu-writer.site/index.html
 不过我记笔记只要是WPS  
 
 ...不少人向我推荐VS code...  
-https://juejin.im/entry/58bac8aa8ac2475f006ce7f2  
+别人搜集的软件清单：https://juejin.im/entry/58bac8aa8ac2475f006ce7f2  
 
 ## 常用快捷键
 <b>能用常用快捷键打开的东西，就可以不必放在dock中</b>  
