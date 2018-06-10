@@ -123,6 +123,9 @@ Comix 漫画阅读器  
 Cisco Packet Tracer，GNS3
 ### 输入法
 搜狗，Rime
+### 写作/Markdown
+https://ivarptr.github.io/yu-writer.site/index.html  
+不过我记笔记只要是WPS  
 
 ...不少人向我推荐VS code...
 
