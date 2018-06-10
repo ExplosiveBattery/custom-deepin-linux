@@ -46,6 +46,9 @@ https://jingyan.baidu.com/article/f7ff0bfc3f49132e26bb1338.html （还可以使�
 `iwconfig`  
 如果发现有一行Power Management:powersave说明网卡工作在低功耗，emmm，我觉得这可能是我信号不好的原因  
 `sudo iw dev wlp2s0 set power_save off`  
+### 省电
+tlp、linux-cpupower 没准安装了之后是一种省电方式  
+但是我也觉得不太好，官方说15.6版本会对这方面进行解决优化  
 ### 定时任务
 cron了解一下，相关命令crontab（相关参数-e,-l），相关文件
 ### 自定义手势
