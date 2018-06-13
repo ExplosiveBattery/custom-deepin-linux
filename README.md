@@ -40,6 +40,8 @@ https://bbs.deepin.org/forum.php?mod=viewthread&tid=149493
 自定义dock大小：
 https://jingyan.baidu.com/article/f7ff0bfc3f49132e26bb1338.html （还可以使用gsettings命令）  
 如果想要编译安装最新版的dock可以参考https://bbs.deepin.org/forum.php?mod=viewthread&tid=155729 关键是注意还要更新dtkcore
+### 天气Dock插件
+https://bbs.deepin.org/forum.php?mod=viewthread&tid=156934
 ### 应用图标定制
 见icons文件夹
 ### 无线网卡工作模式
