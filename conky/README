@@ -5,3 +5,8 @@
 
 配置文件： /etc/conky/conky.conf
 插件目录： ~/.conky
+
+
+推荐主题：https://github.com/zagortenay333/Harmattan/tree  
+具体安装见网址中的Installation  
+安装补充：.conkyrc的位置可以是随意的，看其中的代码可知其中使用的是绝对路径，最后conky -c <.conkyrc路径>即可  
