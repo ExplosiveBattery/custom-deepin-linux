@@ -33,6 +33,9 @@ https://github.com/ExplosiveBattery/deepin-desktop-toggle
 ### 钉宫语音包
 https://bbs.deepin.org/forum.php?mod=viewthread&tid=154264  这个帖子楼主的包有点不完善，拉到后面有人发了比较好的  
 类似的还有https://bbs.deepin.org/forum.php?mod=viewthread&tid=134778
+### launcher
+想要给launcher自定义分类
+https://github.com/linuxdeepin/dde-launcher/search?utf8=%E2%9C%93&q=chat&type= 从代码看出是写死的，而不是读取配置文件，很遗憾这种写法，如果要实现自定义分类就需要重新编译这个项目  
 ### topbar(顶栏)
 https://bbs.deepin.org/forum.php?mod=viewthread&tid=141816
 ### 透明化dock(底栏)
