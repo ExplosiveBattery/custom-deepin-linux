@@ -5,11 +5,17 @@
 	Splashy:新的开机动画程序，以取代老化的bootsplash开机动画程序。  
 	usplash:ubuntu之前早期使用的开机动画程序。  
 	XSplash:Ubuntu9.10开始使用的开机动画程序。  
-### config file for plymonth  in deepin
+### 15.5 config file for plymonth  in deepin
   如果你只改动/etc/plymouth/plymouthd.conf 则只有对关机动画起作用  
   还需要改动/usr/share/plymouth/themes/default.plymouth 开机动画  
   deepin提供了plymouth-set-default-theme 但是只改了/etc/plymouth/plymouthd.conf  
   最后sudo update-initramfs -u 刷新
+### 15.6
+  plymouth-set-default-theme
+
+
+
+
 
 ### theme download
 https://store.kde.org/browse/cat/108/  
