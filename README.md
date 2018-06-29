@@ -12,6 +12,8 @@ deepin is convence, but loose something.
 ### bug修复
 https://blog.csdn.net/liuestcjun/article/details/53515589 15.5.1还存在这个bug，导致我不能使用java命令运行class文件  
 为英语环境下的日历添加农历支持:https://bbs.deepin.org/forum.php?mod=viewthread&tid=154593&extra=page%3D1&page=2
+### can't do
+ln -f /usr/bin/python3 /usr/bin/python  
 ### 引导修复
 见Repair grub文件夹（信不信？不管你遇到过的还是没遇到过得）
 ### apt remove/purge 手贱 修复
