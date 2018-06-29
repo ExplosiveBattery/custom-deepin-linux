@@ -1,5 +1,7 @@
 No license， just for fun  
 
+deepin is convence, but loose something.
+
 ## 基本操作
 ### 直接root权限登录系统
 两种思路：
