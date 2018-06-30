@@ -11,7 +11,7 @@ deepin is convence, but loose something.
 重要提示：https://www.cnblogs.com/johnw/p/5499442.html 中的方法三直接将uid改为0，是一个坑。会导致开机无法登录。因为lightdm有限制，我将uid改为1001，能够显示登录界面但是登录不进去，估计home目录里面也有限制要调整。
 ### 不能做的事情
 ln -f /usr/bin/python3 /usr/bin/python  因为一些东西依赖于python，且他们认为系统的python是指python2，所以不要做这个改动  
-不要随意删除/usr/share/applications下的desktop，不要以为这只是一个为了在launcher中显示的文件。比如你删了File manager，你会发现系统设置中对应的Super+E快捷键失效；你删了Text Editor你会发现文本文件右键打开方式出了点问题  
+不要随意删除/usr/share/applications下的desktop，不要以为这只是一个为了在launcher中显示的文件。比如你删了File manager，你会发现系统设置中对应的Super+E快捷键失效；你删了Text Editor你会发现文本文件右键打开方式出了点问题；删除了deepin-font-install之后，就不能直接通过双击安装软件。当然也有一些真的放着碍眼，你就删掉吧，如果要回复，使用apt install --reinstall  xxxx    
 ### bug修复
 https://blog.csdn.net/liuestcjun/article/details/53515589 15.5.1还存在这个bug，导致我不能使用java命令运行class文件  
 为英语环境下的日历添加农历支持:https://bbs.deepin.org/forum.php?mod=viewthread&tid=154593&extra=page%3D1&page=2
@@ -87,6 +87,15 @@ https://bbs.deepin.org/forum.php?mod=viewthread&tid=156341
 sudo mv /usr/share/applications/edrawmax-zh.desktop /usr/share/applications/edrawmax.desktop
 ### 精简系统
 可以删除系统多余的语言包，有几百MB大小
+`
+sudo apt purge spotify-client steam skype thunderbird dde-introduction deepin-manual deepin-clone simple-scan  
+`
+`
+sudo rm /usr/share/applications/skype.desktop /usr/share/applications/dde-trash.desktop  /usr/share/applications/deepin-toggle-desktop.desktop /usr/share/applications/org.gnome.FileRoller.desktop /usr/share/applications/dde-computer.desktop /usr/share/applications/deepin-feedback.desktop  
+`
+` 我不支持deepin的flatpak，删了之后自己进应用市场搜deepin，去安装deb格式  
+flatpak uninstall org.deepin.flatdeb.deepin-calculator org.deepin.flatdeb.deepin-calendar org.deepin.flatdeb.deepin-image-viewer org.deepin.flatdeb.deepin-music org.deepin.flatdeb.deepin-screen-recorder org.deepin.flatdeb.deepin-screenshot org.deepin.flatdeb.deepin-voice-recorder org.deepin.flatdeb.Base.Platform  
+`
 ### 解决wireshark（dumpcap）的权限问题
 sudo chmod 4755 /usr/bin/dumpcap
 
