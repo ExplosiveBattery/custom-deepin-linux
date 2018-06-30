@@ -9,11 +9,12 @@ deepin is convence, but loose something.
 - 调整Lightdm（配置文件/etc/lightdm/lightdm.conf，相关帮助https://www.cnblogs.com/EasonJim/p/7128317.html）  
 
 重要提示：https://www.cnblogs.com/johnw/p/5499442.html 中的方法三直接将uid改为0，是一个坑。会导致开机无法登录。因为lightdm有限制，我将uid改为1001，能够显示登录界面但是登录不进去，估计home目录里面也有限制要调整。
+### 不能做的事情
+ln -f /usr/bin/python3 /usr/bin/python  因为一些东西依赖于python，且他们认为系统的python是指python2，所以不要做这个改动  
+不要随意删除/usr/share/applications下的desktop，不要以为这只是一个为了在launcher中显示的文件。比如你删了File manager，你会发现系统设置中对应的Super+E快捷键失效；你删了Text Editor你会发现文本文件右键打开方式出了点问题  
 ### bug修复
 https://blog.csdn.net/liuestcjun/article/details/53515589 15.5.1还存在这个bug，导致我不能使用java命令运行class文件  
 为英语环境下的日历添加农历支持:https://bbs.deepin.org/forum.php?mod=viewthread&tid=154593&extra=page%3D1&page=2
-### 不能做的事情
-ln -f /usr/bin/python3 /usr/bin/python  因为一些东西依赖于python，且他们认为系统的python是指python2，所以不要做这个改动  
 ### 引导修复
 见Repair grub文件夹（信不信？不管你遇到过的还是没遇到过得）
 ### apt remove/purge 手贱 修复
