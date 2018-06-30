@@ -12,8 +12,8 @@ deepin is convence, but loose something.
 ### bug修复
 https://blog.csdn.net/liuestcjun/article/details/53515589 15.5.1还存在这个bug，导致我不能使用java命令运行class文件  
 为英语环境下的日历添加农历支持:https://bbs.deepin.org/forum.php?mod=viewthread&tid=154593&extra=page%3D1&page=2
-### can't do
-ln -f /usr/bin/python3 /usr/bin/python  
+### 不能做的事情
+ln -f /usr/bin/python3 /usr/bin/python  因为一些东西依赖于python，且他们认为系统的python是指python2，所以不要做这个改动  
 ### 引导修复
 见Repair grub文件夹（信不信？不管你遇到过的还是没遇到过得）
 ### apt remove/purge 手贱 修复
@@ -138,19 +138,4 @@ Cisco Packet Tracer，GNS3
 搜狗，Rime
 ### 写作/Markdown
 https://ivarptr.github.io/yu-writer.site/index.html  
-不过我记笔记只要是WPS  
-### Sublime 
-系统商城里面的Sublime-text-dev3，更加适合改需要权限的文件，保存的时候会询问你root密码  
-
-...不少人向我推荐VS code...  
-别人搜集的软件清单：https://juejin.im/entry/58bac8aa8ac2475f006ce7f2  
-
-## 常用快捷键
-<b>能用常用快捷键打开的东西，就可以不必放在dock中</b>  
-Shift+Win+左右方向键   在多任务视图中移动当前应用  
-Win+方向上键  当前窗口最大化  
-Win+方向下键  当前窗口正常化  
-Win+= 与 Win+- 放大镜效果  
-Win+e 文件管理器  
-Win+w 当前任务视图中的所有窗口  
-Ctrl+Alt+T 终端shell  
+不过
