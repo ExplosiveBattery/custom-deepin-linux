@@ -9,12 +9,12 @@
   如果你只改动/etc/plymouth/plymouthd.conf 则只有对关机动画起作用  
   还需要改动/usr/share/plymouth/themes/default.plymouth 开机动画  
   deepin提供了plymouth-set-default-theme 但是只改了/etc/plymouth/plymouthd.conf  
-  最后sudo update-initramfs -u 刷新
+  最后sudo update-initramfs -u 刷新  
 `
-sudo cp -i -r lite_spinner /usr/share/plymouth/themes/
-sudo update-alternatives --install /usr/share/plymouth/themes/default.plymouth default.plymouth /usr/share/plymouth/themes/lite_spinner/lite_spinner.plymouth 100
-sudo update-alternatives --config default.plymouth
-sudo update-initramfs -u
+sudo cp -i -r lite_spinner /usr/share/plymouth/themes/  
+sudo update-alternatives --install /usr/share/plymouth/themes/default.plymouth default.plymouth /usr/share/plymouth/themes/lite_spinner/lite_spinner.plymouth 100  
+sudo update-alternatives --config default.plymouth  
+sudo update-initramfs -u  
 `
 
 
