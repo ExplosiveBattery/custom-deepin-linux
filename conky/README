@@ -1,6 +1,7 @@
 我的conky配置文件算是最基础的，因为多了没有必要，天气信息deepin已经有提供，而且我chrome安装了Momentum插件，所以我觉得天气信息也没有了必要  
 如果要加入好看的天气，可以使用插件（而不是自己写了），例如flair_weather  
-https://bbs.deepin.org/forum.php?mod=viewthread&tid=152734
+https://bbs.deepin.org/forum.php?mod=viewthread&tid=152734  
+
 桌面背景图片不能太亮，或者你自己改一下配置文件中的颜色  
 具体配置教程：http://forum.ubuntu.org.cn/viewtopic.php?f=94&t=313031  
 
