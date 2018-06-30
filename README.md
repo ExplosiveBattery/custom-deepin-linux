@@ -5,12 +5,12 @@ deepin is convence, but loose something.
 ## 基本操作
 ### 更换软件源，处理问题源
 `
-sudo gedit /etc/apt/sources.list
-  deb http://mirrors.aliyun.com/deepin panda main contrib non-free
-  deb-src http://mirrors.aliyun.com/deepin panda main contrib non-free
+sudo gedit /etc/apt/sources.list  
+  deb http://mirrors.aliyun.com/deepin panda main contrib non-free  
+  deb-src http://mirrors.aliyun.com/deepin panda main contrib non-free  
 `
 `
-sudo rm /etc/apt/sources.list.d/spotify.list
+sudo rm /etc/apt/sources.list.d/spotify.list  
 `
 ### 直接root权限登录系统
 两种思路：
@@ -157,4 +157,3 @@ Cisco Packet Tracer，GNS3
 搜狗，Rime
 ### 写作/Markdown
 https://ivarptr.github.io/yu-writer.site/index.html  
-不过
