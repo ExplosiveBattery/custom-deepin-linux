@@ -139,6 +139,8 @@ Cisco Packet Tracer，GNS3
 ### 写作/Markdown
 https://ivarptr.github.io/yu-writer.site/index.html  
 不过我记笔记只要是WPS  
+### Sublime 
+系统商城里面的Sublime-text-dev3，更加适合改需要权限的文件，保存的时候会询问你root密码  
 
 ...不少人向我推荐VS code...  
 别人搜集的软件清单：https://juejin.im/entry/58bac8aa8ac2475f006ce7f2  
