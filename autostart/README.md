@@ -17,29 +17,34 @@ vega@vega-Laptop:~$ cat /etc/xdg/autostart/change-desktop-background.desktop
 [Desktop Entry]
 Type=Application
 Name=Change desktop background
-Exec=/usr/share/backgrounds/change_desktop_background.sh 600
+Exec=/usr/share/backgrounds/change_desktop_background.sh 600&
 NoDisplay=true
 
 vega@vega-Laptop:~$ cat /usr/share/backgrounds/change_desktop_background.sh
 #!/bin/bash
-# 随机文件版
-PATH=/home/$USER/Pictures/Wallpapers/*
-while [ 1 -eq 1 ]; do
-    list=$(/bin/echo $PATH)
-    num=$(/bin/echo $list | /usr/bin/wc -w)
-    filepath=$(/bin/echo $list | /usr/bin/awk "{print \$$[$RANDOM%num]}")
-    #/usr/bin/gsettings set com.deepin.wrap.gnome.desktop.background picture-uri file://$filepath
-    /usr/bin/qdbus --literal com.deepin.wm /com/deepin/wm com.deepin.wm.ChangeCurrentWorkspaceBackground file://$filepath
-    /bin/sleep $[$1];
-done
-# 固定循环版
-# while [ 1 -eq 1 ]; do
-#     for i in $(echo $PATH/*); do
-#         echo $i
-#         gsettings set com.deepin.wrap.gnome.desktop.background picture-uri file://${i}
-#         sleep $[10*60];
-#     done
-# done
+PATH=/media/vega/0D6C051A0D6C051A/all/Wallpapers/*
+if [ $1 -ne 0 ]; then
+	# 随机文件版
+	while [ 1 -eq 1 ]; do
+	    list=$(/bin/echo $PATH)
+	    num=$(/bin/echo $list | /usr/bin/wc -w)
+	    filepath=$(/bin/echo $list | /usr/bin/awk "{print \$$[$RANDOM%num]}")
+	    #/usr/bin/gsettings set com.deepin.wrap.gnome.desktop.background picture-uri file://$filepath
+	    /usr/bin/qdbus --literal com.deepin.wm /com/deepin/wm com.deepin.wm.ChangeCurrentWorkspaceBackground file://$filepath > /dev/null
+	    /bin/sleep $1;
+	done
+
+	# 固定循环版
+	# while [ 1 -eq 1 ]; do
+	#     for i in $(echo $PATH/*); do
+	#         echo $i
+	#         gsettings set com.deepin.wrap.gnome.desktop.background picture-uri file://${i}
+	#         sleep $[10*60];
+	#     done
+	# done
+fi
+
+
 
 
 conky自启动
