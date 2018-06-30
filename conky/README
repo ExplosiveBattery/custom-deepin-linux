@@ -2,6 +2,8 @@
 如果要加入好看的天气，可以使用插件（而不是自己写了），例如flair_weather  
 https://bbs.deepin.org/forum.php?mod=viewthread&tid=152734  
 
+如果配置文件中涉及温度，需要安装lm-sensors:  sudo apt-get install lm-sensors
+
 桌面背景图片不能太亮，或者你自己改一下配置文件中的颜色  
 具体配置教程：http://forum.ubuntu.org.cn/viewtopic.php?f=94&t=313031  
 
