@@ -121,6 +121,7 @@ apt安装：https://www.cnblogs.com/diyunfei/p/7618508.html
 ### gradle
 压缩包安装： https://gradle.org/install/   
 如果有Android Studio，可以通过这个IDE下载安装  
+不推荐通过apt install 安装  
 ### docker
 https://github.com/ExplosiveBattery/docker  
 仓库中有两个pdf，一个是介绍docker，一个是如何安装docker，我的deepin安装使用了：  
