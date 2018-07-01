@@ -118,6 +118,9 @@ sudo chmod 4755 /usr/bin/dumpcap
 ### Java
 apt安装：https://www.cnblogs.com/diyunfei/p/7618508.html  
 压缩包安装（推荐）：https://bbs.deepin.org/forum.php?mod=viewthread&tid=136610  
+### gradle
+压缩包安装： https://gradle.org/install/   
+如果有Android Studio，可以通过这个IDE下载安装  
 ### docker
 https://github.com/ExplosiveBattery/docker  
 仓库中有两个pdf，一个是介绍docker，一个是如何安装docker，我的deepin安装使用了：  
