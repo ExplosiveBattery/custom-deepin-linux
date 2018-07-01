@@ -12,6 +12,9 @@ deb-src http://mirrors.aliyun.com/deepin panda main contrib non-free
 
 sudo rm /etc/apt/sources.list.d/spotify.list  
 
+### 软件源支持add-apt-repository ppa
+sudo apt install software-properties-common  
+apt安装java、katoolin时会用到  
 ### 直接root权限登录系统
 两种思路：
 - 将默认的登录用户永久提升到root权限
