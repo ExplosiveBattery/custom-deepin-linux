@@ -167,3 +167,6 @@ Cisco Packet Tracer，GNS3
 搜狗，Rime
 ### 写作/Markdown
 https://ivarptr.github.io/yu-writer.site/index.html  
+### 系统临时状态
+专门用于使用真机进行自己内心不想进行的操作  
+通过shell命令进入系统临时状态，并且记录其间shell的交互情况  【难度巨大，等待完成】
