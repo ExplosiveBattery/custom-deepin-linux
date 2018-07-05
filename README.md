@@ -98,16 +98,16 @@ https://bbs.deepin.org/forum.php?mod=viewthread&tid=156341
 如果上面改了值分类还是没有改变，emm，似乎deepin有点问题，我们还要把这个desktop文件名字稍微改一下：  
 sudo mv /usr/share/applications/edrawmax-zh.desktop /usr/share/applications/edrawmax.desktop
 ### 精简系统
-可以删除系统多余的语言包，有几百MB大小
+可以删除系统多余的语言包，有几百MB大小  
 `
 sudo apt purge spotify-client steam skype thunderbird dde-introduction deepin-manual deepin-clone simple-scan  
-`
+`  
 `
 sudo rm /usr/share/applications/skype.desktop /usr/share/applications/dde-trash.desktop  /usr/share/applications/deepin-toggle-desktop.desktop /usr/share/applications/org.gnome.FileRoller.desktop /usr/share/applications/dde-computer.desktop /usr/share/applications/deepin-feedback.desktop  
-`
+`  
 ` 我不支持deepin的flatpak，删了之后自己进应用市场搜deepin，去安装deb格式  
 flatpak uninstall org.deepin.flatdeb.deepin-calculator org.deepin.flatdeb.deepin-calendar org.deepin.flatdeb.deepin-image-viewer org.deepin.flatdeb.deepin-music org.deepin.flatdeb.deepin-screen-recorder org.deepin.flatdeb.deepin-screenshot org.deepin.flatdeb.deepin-voice-recorder org.deepin.flatdeb.Base.Platform  
-`
+`  
 ### 解决wireshark（dumpcap）的权限问题
 sudo chmod 4755 /usr/bin/dumpcap
 
