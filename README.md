@@ -170,3 +170,14 @@ https://ivarptr.github.io/yu-writer.site/index.html
 ### 系统临时状态
 专门用于使用真机进行自己内心不想进行的操作  
 通过shell命令进入系统临时状态，并且记录其间shell的交互情况  【难度巨大，等待完成】
+
+## 常用快捷键
+
+### 能用常用快捷键打开的东西，就可以不必放在dock中
+Shift+Win+左右方向键 在多任务视图中移动当前应用
+Win+方向上键 当前窗口最大化
+Win+方向下键 当前窗口正常化
+Win+= 与 Win+- 放大镜效果
+Win+e 文件管理器
+Win+w 当前任务视图中的所有窗口
+Ctrl+Alt+T 终端shell
