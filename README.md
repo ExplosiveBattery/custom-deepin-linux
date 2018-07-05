@@ -1,6 +1,6 @@
 No license， just for fun  
 
-deepin is convence, but loose something.
+deepin is convenient, but lost something.
 
 ## 基本操作
 ### 更换软件源，处理问题源
