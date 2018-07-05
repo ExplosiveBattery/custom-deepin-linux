@@ -87,6 +87,7 @@ https://bbs.deepin.org/forum.php?mod=viewthread&tid=137002
 ### 主题
 目前为止好看的主题：  
 https://github.com/horst3180/Arc-theme  
+https://bbs.deepin.org/forum.php?mod=viewthread&tid=166024  
 https://github.com/adapta-project/adapta-gtk-theme  
 https://bbs.deepin.org/forum.php?mod=viewthread&tid=159620  
 但是感觉和deepin的桌面环境搭不起来，有些效果会无效。【待研究】
