@@ -176,6 +176,14 @@ https://ivarptr.github.io/yu-writer.site/index.html
 webtorrent BT视频  
 ### 驱动
 Driver Manager  
+### 分区
+Gparted 这款软件还可以单独写到PE里面  
+### 清理垃圾?
+deepin repair 一般一键备份前用一下，减少备份包体积
+### 系统配置文件更改
+dconf editor  比如改桌面的各种配置，都可以在这通过UI操作  
+### 字体查看
+font viewer  
 
 ## 常用快捷键
 
