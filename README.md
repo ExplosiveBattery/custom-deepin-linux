@@ -3,15 +3,18 @@ No license， just for fun
 deepin is convenient, but lost something.
 
 ## 基本操作
+### FAQ（常见问题）
+https://bbs.deepin.org/forum.php?mod=viewthread&tid=146921  
 ### 更换软件源，处理问题源
-
 sudo gedit /etc/apt/sources.list   
 deb http://mirrors.aliyun.com/deepin panda main contrib non-free   
 deb-src http://mirrors.aliyun.com/deepin panda main contrib non-free   
-
-
 sudo rm /etc/apt/sources.list.d/spotify.list  
-
+### 替换apt：  
+apt-fast是用来代替“apt-get”的的一个shell脚本程序，它通过多线程的方式改善了更新和下载安装包的速度。如果你经常用终端和apt-get来安装和升级软件的话，可以试试apt-fast  
+sudo add-apt-repository ppa:apt-fast/stable  
+sudo apt update  
+sudo apt install apt-fast  
 ### 软件源支持add-apt-repository ppa
 sudo apt install software-properties-common  
 apt安装java、katoolin时会用到  
