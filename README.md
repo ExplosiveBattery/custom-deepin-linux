@@ -187,6 +187,9 @@ deepin repair 一般一键备份前用一下，减少备份包体积
 dconf editor  比如改桌面的各种配置，都可以在这通过UI操作  
 ### 字体查看
 font viewer  
+### VMware pro 14.1.2
+https://download.pchome.net/system/sysenhance/download-75584.html  
+密钥：http://beikeit.com/post-513.html  的 “最新14版”  
 
 ## 常用快捷键
 
