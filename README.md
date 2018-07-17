@@ -17,7 +17,7 @@ sudo apt update
 sudo apt install apt-fast  
 ### 软件源支持add-apt-repository ppa
 sudo apt install software-properties-common  
-apt安装java、katoolin时会用到  
+apt安装java、katoolin时会用到 
 ### 直接root权限登录系统
 两种思路：
 - 将默认的登录用户永久提升到root权限
@@ -190,6 +190,10 @@ font viewer
 ### VMware pro 14.1.2
 https://download.pchome.net/system/sysenhance/download-75584.html  
 密钥：http://beikeit.com/post-513.html  的 “最新14版”  
+### 下载youToBe、bilibili等视频
+请自己安装好pip3  
+pip3 install  you-get  
+但是有一个问题，pip3安装的you-get、scrapy等脚本程序都放到了~/.local/bin下，而这里还需要我们自己加到$PATH里面  
 
 ## 常用快捷键
 
