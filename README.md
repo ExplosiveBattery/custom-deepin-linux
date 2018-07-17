@@ -193,7 +193,9 @@ https://download.pchome.net/system/sysenhance/download-75584.html
 ### 下载youToBe、bilibili等视频
 请自己安装好pip3  
 pip3 install  you-get  
-但是有一个问题，pip3安装的you-get、scrapy等脚本程序都放到了~/.local/bin下，而这里还需要我们自己加到$PATH里面  
+但是有一个问题，pip3安装的you-get、scrapy等脚本程序都放到了~/.local/bin下，而这里还需要
+sudo echo "export PATH=$PATH:$HOME/.local/bin" >> /etc/profile  
+source /etc/profile  
 
 ## 常用快捷键
 
