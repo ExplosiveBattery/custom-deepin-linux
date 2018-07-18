@@ -71,6 +71,7 @@ https://bbs.deepin.org/forum.php?mod=viewthread&tid=156934
 `iwconfig`  
 如果发现有一行Power Management:powersave说明网卡工作在低功耗，emmm，我觉得这可能是我信号不好的原因  
 `sudo iw dev wlp2s0 set power_save off`  
+可能可以提升网速： https://bbs.deepin.org/forum.php?mod=viewthread&tid=166203  
 ### 省电
 tlp、linux-cpupower 没准安装了之后是一种省电方式  
 但是我也觉得不太好，官方说15.6版本会对这方面进行解决优化  
