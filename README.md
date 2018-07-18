@@ -42,7 +42,12 @@ https://bbs.deepin.org/forum.php?mod=viewthread&tid=155660&extra=
 ### 切换桌面壁纸（脚本，内存泄露问题）
 https://bbs.deepin.org/forum.php?mod=viewthread&tid=155474&extra=  
 ### 动态桌面壁纸
-有待我开发【待研究】
+动态壁纸资源：
+- http://bbs.huoying666.com/portal.html  真的不错  
+- [我写了一份scrapy爬虫获取飞火动态壁纸中的资源](https://github.com/ExplosiveBattery/DynamicDesktop)
+- 自己通过ffmpeg等工具截取、合成好看的视频文件  
+Deepin一个工作人员的个人作品：https://github.com/haruyukilxz/deepin-dreamscene   
+
 ### 桌面美化(conky，类似于windows下的水滴桌面)
 见conky文件夹  
 ### 设置开机自动执行什么(包含开机应用自启动，比如说conky，壁纸自动切换)
