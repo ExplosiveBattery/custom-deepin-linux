@@ -46,8 +46,9 @@ https://bbs.deepin.org/forum.php?mod=viewthread&tid=155474&extra=
 - http://bbs.huoying666.com/portal.html  真的不错  
 - [我写了一份scrapy爬虫获取飞火动态壁纸中的资源](https://github.com/ExplosiveBattery/DynamicDesktop)
 - 自己通过ffmpeg等工具截取、合成好看的视频文件  
-Deepin一个工作人员的个人作品：https://github.com/haruyukilxz/deepin-dreamscene   
-
+几乎所有的动态壁纸都仅仅支持通过CPU来播放运行，估计是懒得写，而且Linux下GPU还不一定能够很好地使用，以及有些人是关闭了GPU来省电  
+设置动态壁纸的几种方法： https://www.jianshu.com/p/d6ff45e983ce  
+补充： https://github.com/iabem97/komorebi 有着不错的UI界面  
 ### 桌面美化(conky，类似于windows下的水滴桌面)
 见conky文件夹  
 ### 设置开机自动执行什么(包含开机应用自启动，比如说conky，壁纸自动切换)
