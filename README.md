@@ -204,6 +204,8 @@ pip3 install  you-get
 sudo echo "export PATH=$PATH:$HOME/.local/bin" >> /etc/profile  
 source /etc/profile  #但是这条命只是刷新当前shell，要完全范围生效还是重启，如果不想重启，我推荐直接export PATH=$PATH:$HOME/.local/bin顶一下 
   
+youtube-dl  
+  
 M3U文件下载：  
 https://www.zhihu.com/question/48914419  
 github搜索m3u8 downloader  
