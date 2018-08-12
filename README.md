@@ -37,6 +37,8 @@ cat /var/log/apt/history.log 查看操作历史
 ### 内核定制（好处，教程）
 https://bbs.deepin.org/forum.php?mod=viewthread&tid=155660&extra=  
 一般步骤：http://smilejay.com/2011/05/linux_kernel_compilation/  
+内核通常会涉及很多问题，比如合上笔记本盖子之后并且拔掉外置电源接口可能导致系统直接进入关机而不是待机，这个问题很奇特，我还原系统之后居然莫名其妙碰到，升级到最新的内核可以解决问题，但是因为最新的内核存在一些毛病又退回来，相当于重装原来版本的内核，最终问题得到了解决。  
+
 ### 开机动画
 见plymouth文件夹  
 ### 切换桌面壁纸（脚本，内存泄露问题）
