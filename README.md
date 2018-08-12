@@ -5,6 +5,7 @@ deepin is convenient, but lost something.
 ## 基本操作
 ### FAQ（常见问题）
 https://bbs.deepin.org/forum.php?mod=viewthread&tid=146921  
+deepin15.5 的文件管理器还有不小的问题，比如打开一个内容很多的文件夹的时候，慢的一匹。电脑开机久了，可能还会导致删除目录之后没有立即刷新当前文件夹中的内容，要切换目录然后在切换回来才能看得到  
 ### 更换软件源，处理问题源
 sudo gedit /etc/apt/sources.list   
 deb http://mirrors.aliyun.com/deepin panda main contrib non-free   
