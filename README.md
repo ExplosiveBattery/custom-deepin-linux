@@ -189,6 +189,7 @@ https://ivarptr.github.io/yu-writer.site/index.html
 webtorrent BT视频  
 ### 驱动
 Driver Manager  
+支持SAMSUNG t5的使用：sudo apt install exfat-utils exfat-fuse
 ### 分区
 Gparted 这款软件还可以单独写到PE里面  
 ### 清理垃圾?
