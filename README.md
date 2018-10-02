@@ -4,30 +4,40 @@ deepin is convenient, but lost something.
 
 ## 基本操作
 ### FAQ（常见问题）
-https://bbs.deepin.org/forum.php?mod=viewthread&tid=146921  
-deepin15.5 的文件管理器还有不小的问题，比如打开一个内容很多的文件夹的时候，慢的一匹。电脑开机久了，可能还会导致删除目录之后没有立即刷新当前文件夹中的内容，要切换目录然后在切换回来才能看得到  
+[深度操作系统新手指引（FAQ）](https://bbs.deepin.org/forum.php?mod=viewthread&tid=146921)
+
+deepin15.5 的文件管理器还有不小的问题，比如打开一个内容很多的文件夹的时候，慢的一匹。电脑开机久了，可能还会导致删除目录之后没有立即刷新当前文件夹中的内容，要切换目录然后在切换回来才能看得到。
 ### 更换软件源，处理问题源
+````sh
 sudo gedit /etc/apt/sources.list   
 deb http://mirrors.aliyun.com/deepin panda main contrib non-free   
 deb-src http://mirrors.aliyun.com/deepin panda main contrib non-free   
-sudo rm /etc/apt/sources.list.d/spotify.list  
+sudo rm /etc/apt/sources.list.d/spotify.list
+````
 ### 替换apt：  
-apt-fast是用来代替“apt-get”的的一个shell脚本程序，它通过多线程的方式改善了更新和下载安装包的速度。如果你经常用终端和apt-get来安装和升级软件的话，可以试试apt-fast  
+apt-fast是用来代替“apt-get”的的一个shell脚本程序，它通过多线程的方式改善了更新和下载安装包的速度。如果你经常用终端和apt-get来安装和升级软件的话，可以试试apt-fast。
+````sh
 sudo add-apt-repository ppa:apt-fast/stable  
 sudo apt update  
-sudo apt install apt-fast  
-### 软件源支持add-apt-repository ppa
-sudo apt install software-properties-common  
+sudo apt install apt-fast
+````
+### 软件源支持 add-apt-repository ppa
+````sh
+sudo apt install software-properties-common
+````
 apt安装java、katoolin时会用到 
 ### 直接root权限登录系统
 两种思路：
 - 将默认的登录用户永久提升到root权限
-- 调整Lightdm（配置文件/etc/lightdm/lightdm.conf，相关帮助https://www.cnblogs.com/EasonJim/p/7128317.html）  
+- 调整Lightdm（配置文件/etc/lightdm/lightdm.conf，[详细步骤请看这篇文章](http://www.cnblogs.com/EasonJim/p/7128317.html)。  
 
-重要提示：https://www.cnblogs.com/johnw/p/5499442.html 中的方法三直接将uid改为0，是一个坑。会导致开机无法登录。因为lightdm有限制，我将uid改为1001，能够显示登录界面但是登录不进去，估计home目录里面也有限制要调整。
+重要提示：[linux下如何添加一个用户并且让用户获得root权限](https://www.cnblogs.com/johnw/p/5499442.html) 中的方法三直接将uid改为0，是一个坑，会导致开机无法登录。因为lightdm有限制，我将 uid 改为 1001，能够显示登录界面但是登录不进去，估计home目录里面也有限制要调整。
 ### 不能做的事情
-ln -f /usr/bin/python3 /usr/bin/python  因为一些东西依赖于python，且他们认为系统的python是指python2，所以不要做这个改动  
-不要随意删除/usr/share/applications下的desktop，不要以为这只是一个为了在launcher中显示的文件。比如你删了File manager，你会发现系统设置中对应的Super+E快捷键失效；你删了Text Editor你会发现文本文件右键打开方式出了点问题；删除了deepin-font-install之后，就不能直接通过双击安装软件。当然也有一些真的放着碍眼，你就删掉吧，如果要回复，使用apt install --reinstall  xxxx    
+````sh
+ln -f /usr/bin/python3 /usr/bin/python
+````
+因为一些东西依赖于python，且他们认为系统的python是指python2，所以不要做这个改动。  
+不要随意删除 `/usr/share/applications` 下的 `*.desktop` 文件，不要以为这只是一个为了在 launcher 中显示的文件。比如你删了File manager，你会发现系统设置中对应的 Super+E 快捷键失效；你删了 Text Editor 你会发现文本文件右键打开方式出了点问题。删除了 deepin-font-install 之后，就不能直接通过双击安装软件。当然也有一些真的放着碍眼，你就删掉吧，如果要回复，使用 `apt install --reinstall xxxx`
 ### bug修复
 https://blog.csdn.net/liuestcjun/article/details/53515589 15.5.1还存在这个bug，导致我不能使用java命令运行class文件  
 为英语环境下的日历添加农历支持:https://bbs.deepin.org/forum.php?mod=viewthread&tid=154593&extra=page%3D1&page=2
@@ -41,7 +51,7 @@ https://bbs.deepin.org/forum.php?mod=viewthread&tid=155660&extra=
 内核通常会涉及很多问题，比如合上笔记本盖子之后并且拔掉外置电源接口可能导致系统直接进入关机而不是待机，这个问题很奇特，我还原系统之后居然莫名其妙碰到，升级到最新的内核可以解决问题，但是因为最新的内核存在一些毛病又退回来，相当于重装原来版本的内核，最终问题得到了解决。  
 
 ### 开机动画
-见plymouth文件夹  
+见 [plymouth](https://github.com/ExplosiveBattery/custom-deepin-linux/tree/master/plymouth) 文件夹  
 ### 切换桌面壁纸（脚本，内存泄露问题）
 https://bbs.deepin.org/forum.php?mod=viewthread&tid=155474&extra=  
 ### 动态桌面壁纸
@@ -53,9 +63,9 @@ https://bbs.deepin.org/forum.php?mod=viewthread&tid=155474&extra=
 设置动态壁纸的几种方法： https://www.jianshu.com/p/d6ff45e983ce  
 补充： https://github.com/iabem97/komorebi 有着不错的UI界面  
 ### 桌面美化(conky，类似于windows下的水滴桌面)
-见conky文件夹  
+见 [conky](https://github.com/ExplosiveBattery/custom-deepin-linux/tree/master/conky) 文件夹  
 ### 设置开机自动执行什么(包含开机应用自启动，比如说conky，壁纸自动切换)
-见autostart文件夹
+见 [autostart](https://github.com/ExplosiveBattery/custom-deepin-linux/tree/master/autostart) 文件夹
 ### 配合conky的show desktop
 https://github.com/ExplosiveBattery/deepin-desktop-toggle  
 程序会读取~/.toggleconfig中的每一行作为一个顶级窗口名，如果存在同样的窗口名则不会被ShowDesktop（win+d按键）影响
