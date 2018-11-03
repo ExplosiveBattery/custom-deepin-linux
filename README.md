@@ -2,6 +2,9 @@ No license, just for fun.
 
 deepin is convenient, but lost something.
 
+### 很奇怪的问题
+我的笔记本是xps 昆山机，使用deepin15,4之后，长时间没有关机，就容易导致系统在使用的过程中出现问题，比如明明没有动，但是电脑出现仿佛一直在鼠标点击的效果，一旦出现这时候重启，就会“BIOS Recovery”。之前我频繁进入这种状态，最终导致自己的磁盘在一个月之内就崩掉了，虽然最后证明应该是磁盘问题，但是换了磁盘之后还这样，系统要背锅。打算好好整理一波，然后升级deepin最新版本，话说因为我对系统的一些更改，导致deepin升级之后会出现一些不能接受的毛病，所以我不得不重新回来。总的来说，deepin的一些问题还是挺大的。  
+
 ## 基本操作
 ### FAQ（常见问题）
 [深度操作系统新手指引（FAQ）](https://bbs.deepin.org/forum.php?mod=viewthread&tid=146921)
